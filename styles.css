@@ -1,0 +1,63 @@
+body {
+       font-family: Arial, sans-serif;
+       font-size: 18px;
+       line-height: 1.5rem;
+       color: #444;
+       margin: 0;
+}
+header {
+       border-bottom:1px solid violet;
+}
+h1 {
+       text-align: center;
+       color: darkviolet;
+}
+footer {
+       background-color: pink;
+       color: white;
+       padding: 20px 0;
+       text-align: center;
+}
+footer a {
+       color: white;
+}
+footer a:hover {
+       color: tomato;
+}
+<div class="container">
+       ...
+</div>
+.container {
+       width: 1200px;
+       margin: 0 auto;
+}
+main {
+       padding: 30px 0;
+}
+.info {
+       display: flex;
+       align-items: center;
+       gap: 40px;
+}
+.info {
+       display: flex;
+       align-items: center;
+       gap: 40px;
+}
+h2 {
+       color: chocolate;
+}
+.table {
+       width: 100%;
+       border-collapse: collapse;
+}
+.table th {
+       text-align: left;
+}
+.table th,
+.table td {
+       padding: 10px;
+}
+.table tr:nth-child(even) {
+        background-color: bisque;
+}
